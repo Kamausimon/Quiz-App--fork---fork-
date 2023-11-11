@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
+		<link rel="stylesheet" href="style.css" />
+		<!-- Font Awesome Library is used for Leader board Icon  -->
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+		/>
+		<title>Codedamn - Quiz Project</title>
+	</head>
+
+	<body>
+		<header>
+			<nav>
+				<a id="leaderboard"
+					>View Highscores <i class="fas fa-hand-point-left fa-lg" id="highscore"></i>
+				</a>
+				<a href="Time" class='text' id="timeElement"> Time: </a>
+			</nav>
+			
+		</header>
+		<main>
+			<h3>Coding quiz challenge</h3>
+			 <p id="description"><span>Description: </span>This is a simple javascript quiz.
+			 </p>
+			 <button  id="quizStart"> Start Quiz </button>
+
+		<div id="quiz-container"> 
+         <h2 id='question'> This is Where the question goes: </h2>
+
+          <div id="answer-container"> 
+		 <button class="btn">1</button>
+		 <button class="btn">2</button>
+		 <button class="btn">3</button>
+		 <button class="btn">4</button>
+	     </div>
+
+		</div>
+		<button id="next-button"> Next </button>
+
+		</main>
+		<script src="script.js" defer></script>
+	</body>
+</html>
